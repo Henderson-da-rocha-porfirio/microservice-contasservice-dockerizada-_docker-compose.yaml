@@ -3,7 +3,7 @@ version: "3.8"
 services:
 
   accounts:
-    image: hendersonporfirio/accounts:latest
+    image: hendersonporfirio/microservice-account
     mem_limit: 700m
     ports:
       - "8080:8080"
@@ -11,7 +11,7 @@ services:
       - tuyosistema-network
 
   loans:
-    image: tuyosistema/loans:latest
+    image: hendersonporfirio/microservice-loans
     mem_limit: 700m
     ports:
       - "8090:8090"
@@ -19,7 +19,7 @@ services:
       - tuyosistema-network
 
   cards:
-    image: tuyosistema/cards:latest
+    image: hendersonporfirio/microservice-cards
     mem_limit: 700m
     ports:
       - "9000:9000"
