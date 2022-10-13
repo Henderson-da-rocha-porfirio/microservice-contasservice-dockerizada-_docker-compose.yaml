@@ -41,6 +41,7 @@ docker-compose stop ou crtl + x ou + c
 			<scope>runtime</scope>
 </dependency>
 ````
+
 #### 1. Verificar no console o endpoint criado:
 ````
 h2-console
